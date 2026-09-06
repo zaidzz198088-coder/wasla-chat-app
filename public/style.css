@@ -18,7 +18,7 @@
 }
 
 *{ box-sizing: border-box; }
-html,body{ height:100%; margin:0; }
+html,body{ height:100%; height:100dvh; margin:0; }
 body{
   font-family: var(--font);
   background: var(--ink);
@@ -33,6 +33,7 @@ img{ display:block; }
 /* ============ Auth screen ============ */
 .auth-screen{
   height:100vh;
+  height:100dvh;
   display:flex; align-items:center; justify-content:center;
   background:
     radial-gradient(circle at 20% 15%, rgba(41,182,168,0.18), transparent 45%),
@@ -85,7 +86,7 @@ img{ display:block; }
 .btn-secondary{ background: var(--elevated); color:var(--text); padding:12px; border-radius:10px; font-weight:700; }
 
 /* ============ App shell ============ */
-.app-shell{ display:flex; height:100vh; }
+.app-shell{ display:flex; height:100vh; height:100dvh; }
 
 .sidebar{
   width: 340px; min-width:340px;
