@@ -1,0 +1,17 @@
+{
+  "name": "my-chat-app",
+  "version": "1.0.0",
+  "description": "مملكة الأشقر - برنامج مراسلات فورية - فردي وجماعي - Node.js + Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "socket.io": "^4.7.5",
+    "multer": "^1.4.5-lts.1",
+    "bcryptjs": "^2.4.3",
+    "uuid": "^9.0.1"
+  }
+}
